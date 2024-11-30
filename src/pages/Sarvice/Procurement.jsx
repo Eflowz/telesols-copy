@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import FootO from '../../Components/FootO';
 import Foot from '../../Components/Foot';
-import image1 from '../../assets/pics/Procurement.jpg';
+import image1 from '../../assets/pics/procurement.jpg';
 
 const Procurement = () => {
   const location = useLocation();

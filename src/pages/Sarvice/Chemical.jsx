@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import FootO from '../../Components/FootO';
 import Foot from '../../Components/Foot';
-import image1 from '../../assets/pics/Chemical.jpg';
+import image1 from '../../assets/pics/chemical.jpg';
 
 const Chemical = () => {
   const location = useLocation();
