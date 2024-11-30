@@ -3,6 +3,7 @@ import image1 from '../assets/pics/1.jpg';
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 
 const Saffe = () => {
@@ -39,10 +40,13 @@ const Saffe = () => {
   The mission of <strong>Teresols Nigeria Limited</strong> is to enable our customers to find in one company the experience and expertise to deliver end-to-end business solutions and technology.
   </p>
       <div className="">
+        <Link to='/about'>
       <button className="mt-4 bg-yellow-500 hover:bg-blue-950 text-white font-bold py-2 px-3 rounded inline-flex items-center gap-2 mx-auto">
         Find Out More
         <IoIosArrowDroprightCircle className="text-xl mt-1"/> 
       </button>
+        
+        </Link>
       </div>
     </div>
   </div>
