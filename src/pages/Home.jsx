@@ -13,7 +13,7 @@ import image4 from "../assets/pics/2121.jpg";
 import First from "../Components/First";
 import Sech from "../Components/Sech";
 import ServicesIntro from "../Components/ServicesIntro";
-import Saffe from "../Components/saffe";
+import Blum from '../Components/Blum'
 import Footer from "../Components/Footer";
 import Foot from "../Components/Foot";
 
@@ -72,7 +72,7 @@ const  Home = () => {
         <First/>
         <Sech/>
         <ServicesIntro/>
-        <Saffe/>
+        <Blum/>
         <Footer/>
         <Foot/>
   </div>

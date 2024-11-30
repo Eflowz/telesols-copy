@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 
 
-const Saffe = () => {
+const Blum = () => {
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -54,4 +54,4 @@ const Saffe = () => {
   )
 }
 
-export default Saffe;
+export default Blum;
