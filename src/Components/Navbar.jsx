@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-yellow-500 p-2 relative"> {/* Reduce padding to reduce height */}
+    <nav className="bg-yellow-500 p-2 relative"> 
       <div className="container mx-auto flex justify-between items-center relative">
         <div className="flex relative">
           <img 

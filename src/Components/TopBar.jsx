@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebook } from 'react-icons/fa';
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { PiPhoneCallFill } from "react-icons/pi";
+import { FaSquareInstagram } from 'react-icons/fa6';
 
 const TopBar = () => {
     return (
@@ -22,6 +23,9 @@ const TopBar = () => {
           </a>
           <a href="#" className="text-black text-2xl md:text-4xl">
           <FaSquareXTwitter />
+          </a>
+          <a href="#" className="text-red-500 text-2xl md:text-4xl">
+          <FaSquareInstagram />
           </a>
         </div>
       </div>
