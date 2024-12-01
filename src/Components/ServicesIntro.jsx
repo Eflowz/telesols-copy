@@ -11,25 +11,25 @@ const services = [
     title: "Oil Country",
     subtitle: "Tubular Goods",
     image: image1,
-    link: "#",
+    link: "/services/OilCountry",
   },
   {
     title: "Quality Assurance",
     subtitle: "Quality Control",
     image: image2,
-    link: "#",
+    link: "/services/Quality-Assurance",
   },
   {
     title: "Chemical",
     subtitle: "Supplies",
     image: image3,
-    link: "#",
+    link: "/services/Chemical-Supplies",
   },
   {
     title: "View More",
     subtitle: "Services",
     image: image4, 
-    link: "#",
+    link: "/services",
   },
 ];
 

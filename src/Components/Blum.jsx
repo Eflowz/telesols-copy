@@ -32,12 +32,12 @@ const Blum = () => {
           </ul>
         </div>
             {/* card */}
-        <div className=" p-4 md:p-11 md:h-[400px] bg-white w-full md:w-2/4 md:mr-10 " data-aos="fade-up">
+        <div className="p-3 md:p-11 md:h-[400px] bg-white w-full md:w-2/4 md:mr-10 overflow-y-scroll" data-aos="fade-up">
   <h2 className="text-3xl font-bold text-gray-700 text-center"> What Drives Our Passion to Serve</h2>
   <h2 className="text-4xl font-bold text-blue-900 text-center">Mission Statement</h2>
   <hr className="mt-2 text-gray-950"/>
   <p className="mt-2 text-black text-start text-[17px]">
-  The mission of <strong>Teresols Nigeria Limited</strong> is to enable our customers to find in one company the experience and expertise to deliver end-to-end business solutions and technology.
+  The mission of <strong>IMG Energies  Limited</strong> is to enable our customers to find in one company the experience and expertise to deliver end-to-end business solutions and technology.
   </p>
       <div className="">
         <Link to='/about'>

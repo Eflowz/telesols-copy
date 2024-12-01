@@ -96,19 +96,19 @@ function Footer() {
                 </p>
         <div className="flex items-center mt-6">
         <MdLocationOn className="mr-2 text-yellow-500" size={34} />
-        <p>7, Kola Amodu Crescent, Magodo G.R.A., Lagos, Nigeria</p>
+        <p>7, Osayomore street, oko central road, benin city, Edo State, Nigeria</p>
       </div>
-      <div className="flex items-center mb-2">
+      {/* <div className="flex items-center mb-2">
         <MdLocationOn className="text-yellow-500 mr-2" size={44} />
         <p className='text-left mt-2'>Km 14, Port Harcourt/Aba Expressway, By Oyigri Mega Station, Port Harcourt, Rivers State Nigeria.</p>
-      </div>
+      </div> */}
       <div className="flex items-center mb-2">
         <MdPhone className="text-yellow-500  mr-2" size={34} />
-        <p>Phone: +234-819-321-2621 | +234-906-000-8958</p>
+        <p>Phone: +234-812-348-3831 | +234-905-415-6232</p>
       </div>
       <div className="flex items-center mb-2">
         <MdEmail className="text-yellow-500  mr-2" size={34} />
-        <p>Email: info@teresolsng.com</p>
+        <p>Email: info@imgenergies.com</p>
       </div>
             </div>
           </div>

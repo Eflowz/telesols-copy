@@ -20,9 +20,9 @@ const Sech = () => {
     </div>
     <div className="md:w-1/2 text-center md:text-left mt-4 md:mt-10 md:ml-[-90px]">
     <p className="text-2xl text-black text-left ml-3">Welcome to</p>
-    <h2 className="text-5xl font-bold text-blue-700 text-left ml-3">Teresols Nigeria Limited</h2>
+    <h2 className="text-5xl font-bold text-blue-700 text-left ml-3">IMG Energies Limited</h2>
     <p className="mt-4 text-black text-left ml-3 text-[17px]">
-        High-quality products are necessary in the oil and gas industry. Additionally, review of operational procedures is necessary for safety in the workplace. Teresols Nigeria Limited is a contracting company that puts your company need first.
+        High-quality products are necessary in the oil and gas industry. Additionally, review of operational procedures is necessary for safety in the workplace. IMG Energies Limited is a contracting company that puts your company need first.
         <p className='mt-2'>
           Get in touch with a representative today to get started with our services!
         </p>

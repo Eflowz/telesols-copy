@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi"; 
-import logo from '../assets/pics/main_logo.png'; 
+import logo from '../assets/pics/IMG-Energies-2.png'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,13 +16,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-yellow-500 p-4">
+    <nav className="bg-yellow-500 p-2 relative"> {/* Reduce padding to reduce height */}
       <div className="container mx-auto flex justify-between items-center relative">
-        <div className="flex items-center">
+        <div className="flex relative">
           <img 
             src={logo} 
             alt="Logo" 
-            className="md:h-[90px] w-auto md:mr-3 mx-auto mobile-md:h-[70px]"
+            className="md:w-[150px] w-[120px] h-auto" 
           />
         </div>
         <div className="lg:hidden">

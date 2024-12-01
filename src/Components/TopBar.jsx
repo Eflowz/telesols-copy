@@ -12,7 +12,7 @@ const TopBar = () => {
   <p className="animated-text text-sm sm:text-sm md:text-lg font-bold whitespace-nowrap flex items-center">
     Feel free to talk to us! &nbsp;
     <span className="phone-numbers text-black text-sm sm:text-sm md:text-lg font-semibold">
-      +234-819-321-2621 | +234-906-000-8958
+      +234-812-348-3831 | +234-905-415-6232
     </span>
   </p>
 </div>

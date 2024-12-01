@@ -14,7 +14,7 @@ function Foot() {
     </div>
         <div className="text-center md:text-left">
           <p className="text-[16px] font-extralight">
-            © Copyright 2019-2024 Teresols Nigeria Limited | Import <br /> Web Design: NEONTECH SERVICES
+            © Copyright 2019-2024 Imgenergies Nigeria Limited | Import <br /> Web Design: NEONTECH 
           </p>
         </div>
       </div>
