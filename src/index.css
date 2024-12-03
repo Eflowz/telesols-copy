@@ -17,19 +17,12 @@
 
 
 
-.animated-text {
+/* .animated-text {
     display: inline-block;
     animation: slide-horizontal 30s linear infinite;
-  }
+  } */
   
-  @keyframes slide-horizontal {
-    0% {
-      transform: translateX(100%); /* Start from offscreen right */
-    }
-    100% {
-      transform: translateX(-100%); /* End offscreen left */
-    }
-  }
+
   
   @keyframes dropIn {
     0% {

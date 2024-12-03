@@ -22,7 +22,7 @@ const Fline = () => {
       <div className="w-3/4 border-t border-gray-400 mb-4"></div>
       <div className="bg-blue-800 text-white text-center py-3 px-8 rounded-full md:w-full w-3/4 max-w-5xl">
         <p className="italic text-md md:text-xl">
-        The services we offer are essential to the oil and gas industry. We make sure that they are provided at a high-quality level.
+        Our services play a critical role in supporting the oil and gas industry, delivered with unwavering commitment to excellence and superior standards.
         </p>
       </div>
    

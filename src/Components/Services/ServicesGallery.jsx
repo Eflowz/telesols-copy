@@ -74,7 +74,7 @@ const services = [
 const ServicesGallery = () => {
   return (
     <div className="container mx-auto px-4 md:px-113 py-8">
-        <h2><span className='text-blue-800 font-semibold'>Teresols Nigeria Limited</span> offers the following services:</h2>
+        <h2><span className='text-black font-semibold'>IMG Energies Limited</span> offers the following services:</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
         {services.map((service, index) => (
           <Link 
@@ -100,11 +100,11 @@ const ServicesGallery = () => {
         ))}
       </div>
     <p className=' mt-6'> 
-    We are committed to providing our clients only the best services. Our experience within the oil and gas industry enables us to live up to your expectations, providing you the solutions you need for your company.
+    We are dedicated to delivering exceptional services tailored to meet the unique needs of our clients. With extensive experience in the oil and gas industry, we are well-equipped to provide innovative solutions that drive success for your business.
     <br />
     <br />
-    Please do not hesitate to get in touch with us for inquiries about our services. We’ll be happy to team up with you.
-    </p>
+        For any inquiries about our offerings don't hesitate to reach out. We look forward to collaborating with you and becoming a trusted partner in achieving your goals.
+      </p>
     </div>
   );
 };

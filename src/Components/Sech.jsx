@@ -3,7 +3,7 @@ import image1 from "../assets/pics/side_img1.jpg";
 import image2 from "../assets/pics/side_img2.jpg";
 
 
-const Sech = () => {
+const  Sech = () => {
     return (
     <div className="flex flex-col md:flex-row items-center justify-between py-2 mr-10">
     <div className="hidden md:block md:w-1/2 relative">
@@ -22,9 +22,9 @@ const Sech = () => {
     <p className="text-2xl text-black text-left ml-3">Welcome to</p>
     <h2 className="text-5xl font-bold text-blue-700 text-left ml-3">IMG Energies Limited</h2>
     <p className="mt-4 text-black text-left ml-3 text-[17px]">
-        High-quality products are necessary in the oil and gas industry. Additionally, review of operational procedures is necessary for safety in the workplace. IMG Energies Limited is a contracting company that puts your company need first.
+        We deliver high-quality products and expert solutions tailored to the oil and gas industry. We bring our expertise to ensure your company's needs are met with precision. with a focus on excellence and safety. <strong>IMG ENERGIES</strong> optimize operations to meet your company's needs seamlessly.
         <p className='mt-2'>
-          Get in touch with a representative today to get started with our services!
+          Contact our representative today to get started!
         </p>
       </p>
     </div>

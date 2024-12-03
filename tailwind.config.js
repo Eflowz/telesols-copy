@@ -11,6 +11,10 @@ export default {
         'mobile-md': '375px', 
         'mobile-lg': '425px',  
         'mobile-xl': '765px',  
+        'mobile-xxl': '768px',  
+        'mobile-xzl': {'min': '340px', 'max': '375px'},
+        'mobile-lgo': {'min': '376px', 'max': '424px'},
+        'mobile-xal': {'min': '650px', 'max': '767px'},
       },
       spacing: {
         '13': '3rem',

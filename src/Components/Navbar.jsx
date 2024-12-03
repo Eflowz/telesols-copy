@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi"; 
-import logo from '../assets/pics/IMG-Energies-2.png'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,17 +15,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-yellow-500 p-2 relative"> 
-      <div className="container mx-auto flex justify-between items-center relative">
-        <div className="flex relative">
-          <img 
-            src={logo} 
-            alt="Logo" 
-            className="md:w-[150px] w-[120px] h-auto" 
-          />
-        </div>
-        <div className="lg:hidden">
-          <button onClick={toggleMenu} className="text-white text-3xl focus:outline-none">
+    <nav className="bg-[#ffb200]  p-3 relative "> 
+      <div className="container mx-auto flex justify-center items-center ">
+        <div className="lg:hidden absolute top-[-160px] left-[590px]
+        mobile-xzl:left-[330px] 
+        mobile-lgo:left-[340px]
+        mobile-lg:left-[350px]
+        mobile-xal:left-[600px]
+        z-40">
+          <button onClick={toggleMenu} className="text-black text-4xl focus:outline-none">
             {isOpen ? <FiX /> : <FiMenu />}
           </button>
         </div>
@@ -51,20 +48,19 @@ const Navbar = () => {
             CONTACT US
           </Link>
         </div>
-        {isOpen && (
+                {isOpen && (
           <>
             <div 
               className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm z-40" 
               onClick={toggleMenu} 
             ></div>
             <div className="absolute top-0 left-0 w-full h-full text-center flex flex-col z-50">
-              
-              <div className="absolute top-[-60px] right-[30px]  mobile-md:right-[157px]">
+              {/* Close Button */}
+              <div className="absolute top-[-150px] right-[30px] mobile-md:right-[157px]">
                 <button onClick={toggleMenu} className="bg-white p-2 rounded-full">
                   <FiX className="text-black text-3xl" />
                 </button>
               </div>
-              
               <Link 
                 to="/" 
                 onClick={toggleMenu} 

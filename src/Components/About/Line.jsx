@@ -24,7 +24,7 @@ const Line = () => {
       {/* Blue Container with Text */}
       <div className="bg-blue-800 text-white text-center py-3 px-8 rounded-full md:w-full w-3/4 max-w-5xl">
         <p className="italic text-md md:text-xl">
-          Committed to excellence, serving with your satisfaction in mind.
+        procuring the future today, excellence in service delivery
         </p>
       </div>
    

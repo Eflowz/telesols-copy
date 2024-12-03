@@ -49,10 +49,7 @@ const ServicesIntro = () => {
         </h1>
         <hr className='h-px my-2 border-0 dark:bg-gray-700'/>
         <p className="mt-4 text-black max-w-3xl text-[17px]">
-          Our company has several years' worth of experience in the oil and gas industry. 
-          This is why we are confident we’ll be able to provide you with great quality 
-          services that address your company needs. We are proud to offer the following 
-          services to our clients:
+        With a strong foundation built on our expertise in the oil and gas industry, we are uniquely positioned to provide tailored, high-quality services that align with the specific needs of your company. Our commitment to excellence and understanding of industry challenges enable us to deliver solutions that add value and drive results. Here are the key solutions we provide to our clients:
         </p>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
