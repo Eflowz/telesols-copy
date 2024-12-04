@@ -36,9 +36,9 @@ const Text = () => {
 
       <p className='text-left py-4 '>
         <strong>Target Markets</strong><br />
-        We provide tailored solutions to a diverse range of industries, including:
+        We provide tailored solutions to a diverse range of industries, including: 
         <br />
-        <ul>
+        <ul className='list-disc ml-6 mt-2'>
           <li>  Oil and Gas Companies </li>
           <li>FMCG (Fast-Moving Consumer Goods) Companies</li>
         <li>

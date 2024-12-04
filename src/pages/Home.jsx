@@ -44,8 +44,8 @@ const  Home = () => {
   <div>
     <div className="relative" >
       <div className="hidden md:block absolute z-10 top-1/2 left-[200px] transform -translate-y-1/2 p-8 h-[400px] bg-white bg-opacity-90 shadow-lg max-w-md"  >
-  <h2 className="text-2xl font-semibold text-gray-700 text-center">A Premier provider of Oil Country </h2>
-  <h2 className="text-4xl font-bold text-blue-900 text-center">Tubular Goods</h2>
+  <h2 className="text-2xl font-semibold text-gray-700 text-center">A Premier provider of  </h2>
+  <h2 className="text-2xl font-bold text-blue-900 text-center">Oil Country Tubular Goods</h2>
   <hr className="mt-4 text-gray-950"/>
   <p className="mt-4 text-gray-700 text-center text-md">
     We specialize in supplying premium Oil Country Tubular Goods (OCTG) and delivering top-tier solutions to support the sourcing and energy production needs of oil and gas companies.
