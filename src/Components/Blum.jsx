@@ -17,7 +17,7 @@ const Blum = () => {
         <div className="bg-blue-900 bg-opacity-90 p-8 text-white w-full md:w-1/2 h-full flex flex-col justify-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 mobile-lg:text-md"> Struggling with Inconsistent Supply Chains?
           </h2> 
-          <p className='mb-3 text-md '>
+          <p className='mb-3 text-xl '>
             {/* mobile-lgo:text-sm mobile-xzl:text-sm mobile-lg:text-sm */}
           In the oil and gas industry, delays, poor-quality supplies, and logistical challenges can mean missed deadlines, increased costs, and lost opportunities. We understand that managing procurement for critical operations is no small task.
     <br />
