@@ -8,6 +8,8 @@ import image7 from './pics/project.jpg';
 import image8 from './pics/electrical.jpg';
 import image9 from './pics/safety.jpg';
 import image10 from './pics/industrial.jpg';
+import image11 from './pics/Director.jpg';
+
 
 export {
   image1,
@@ -20,4 +22,5 @@ export {
   image8,
   image9,
   image10,
+  image11,
 };

@@ -9,7 +9,7 @@ const CompFile = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-full">
               <p>
-                As a contracting company, Teresols Nigeria Limited services firms within the oil and gas industry, providing solutions to both government agencies and private and public organizations alike. We handle a variety of activities that help oil and gas companies, including engineering construction, leasing, procurement of oil tools, chemicals and equipment, and labor recruitment.
+              At IMG Energies Limited, we specialize in delivering comprehensive contracting solutions to organizations within the oil and gas sector, serving government entities as well as private and public enterprises. Our expertise spans a range of critical services, including engineering construction, equipment leasing, procurement of specialized tools and chemicals, and workforce recruitment to support industry operations effectively.
               </p>
             </div>
           </div>
@@ -23,27 +23,33 @@ const CompFile = () => {
       <ul className="list-none pl-0">
         <li className="flex items-start space-x-2 mb-2">
           <span className="text-blue-600">&#9654;</span>
-          <span>Guaranteed Quality</span>
+          <span> Uncompromising Quality Standards
+          </span>
         </li>
         <li className="flex items-start space-x-2 mb-2">
           <span className="text-blue-600">&#9654;</span>
-          <span>Solid Financial Base</span>
+          <span>Strong Financial Stability
+          </span>
         </li>
         <li className="flex items-start space-x-2 mb-2">
           <span className="text-blue-600">&#9654;</span>
-          <span>Sophisticated Equipment</span>
+          <span>Cutting-Edge Tools and Technology
+          </span>
         </li>
         <li className="flex items-start space-x-2 mb-2">
           <span className="text-blue-600">&#9654;</span>
-          <span>Highly Experienced and Dedicated Staff</span>
+          <span>Skilled and Committed Professionals
+          </span>
         </li>
         <li className="flex items-start space-x-2 mb-2">
           <span className="text-blue-600">&#9654;</span>
-          <span>Early Completion of Projects</span>
+          <span>Timely Project Delivery
+          </span>
         </li>
         <li className="flex items-start space-x-2 mb-2">
           <span className="text-blue-600">&#9654;</span>
-          <span>Clean Safety Record</span>
+          <span>Exceptional Safety Performance
+          </span>
         </li>
       </ul>
     </div>
@@ -57,7 +63,10 @@ const CompFile = () => {
     />
   </div>
 </div>
-<h2>To know more about our company, you may get in touch with us online.</h2>
+<p className='px-4 md:px-5 mb-2'>
+With our proven degree of efficiency, we remain focused on exceeding client expectations.
+</p>
+<h2 className='px-4 md:px-5 '>To explore how we can support your business goals, connect with us online today.</h2>
     </div>
   );
 };

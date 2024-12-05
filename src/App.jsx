@@ -16,6 +16,10 @@ import Pmanage from './pages/Sarvice/Pmanage';
 import Electrical from './pages/Sarvice/Electrical';
 import Safety from './pages/Sarvice/Safety';
 import Industrial from './pages/Sarvice/Industrial';
+import Country from './pages/Homer/Country';
+import Strategy from './pages/Homer/Strategy';
+import Aims from './pages/Homer/Aims';
+import Team from './pages/Homer/Team';
 
 
 
@@ -30,6 +34,10 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/company" element={<Company />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/country" element={<Country />} />
+        <Route path="/strategy" element={<Strategy />} />
+        <Route path="/aims" element={<Aims />} />
+        <Route path="/teams" element={<Team />} />
         <Route path="/services/OilCountry" element={<OilCountry />} />
         <Route path="/services/Quality-Assurance" element={<Qua />} />
         <Route path="/services/Chemical-Supplies" element={<Chemical />} />

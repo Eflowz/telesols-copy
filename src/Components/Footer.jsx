@@ -32,7 +32,7 @@ const services = [
   {
     title: "Meet Our Team",
     image: image1,
-    link: "/team",
+    link: "/teams",
     icon: <FaUsers className='text-3xl md:text-7xl'/>, 
   },
 ];

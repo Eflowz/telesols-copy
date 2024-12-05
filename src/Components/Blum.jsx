@@ -25,7 +25,7 @@ const Blum = () => {
           At IMG Energies Limited, we turn supply chain challenges into seamless solutions:
 
           </p>
-          <ul className="list-disc ml-6 text-md ">
+          <ul className="list-disc ml-6 text-[16px] ">
             {/* mobile-lgo:text-sm mobile-xzl:text-sm mobile-lg:text-sm */}
             <li>We have access a trusted network of vetted suppliers to ensure the timely delivery of quality equipment, tools, and materials.
             </li>
