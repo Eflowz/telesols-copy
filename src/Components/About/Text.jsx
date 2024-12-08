@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from '../../assets/pics/thumb-5.jpg';
+import image1 from '../../assets/pics/getber.jpg';
 
 const Text = () => {
   return (

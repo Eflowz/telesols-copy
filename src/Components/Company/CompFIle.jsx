@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from '../../assets/pics/compolo.jpg';
+import image1 from '../../assets/pics/bassd.jpg';
 
 const CompFile = () => {
   return (

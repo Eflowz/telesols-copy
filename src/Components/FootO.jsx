@@ -19,7 +19,7 @@ function FootO() {
             <div className="flex flex-col md:flex-row w-full">
     <div className="w-full md:w-1/2 mb-4 md:mb-0">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.8573899750512!2d5.600832952536201!3d6.300705352368187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d38708cf921d%3A0xe8cbb8ec69e29e12!2sIMG%20ENERGIES%20LTD!5e0!3m2!1sen!2sng!4v1733683537452!5m2!1sen!2sng"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6669.506785124199!2d5.595951699184275!3d6.301547162970146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d38708cf921d%3A0xe8cbb8ec69e29e12!2sIMG%20ENERGIES%20LTD!5e0!3m2!1sen!2sng!4v1733700564142!5m2!1sen!2sng"
             className="w-full h-64 md:h-96"
             style={{ border: '0' }}
             allowFullScreen=""
@@ -27,6 +27,7 @@ function FootO() {
             referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
     </div>
+  
     <div className="w-full md:w-1/2 p-6" data-aos="fade-up">
         <h2 className="text-lg font-semibold text-[21px] text-center">How you can Reach Us</h2>
         <h3 className="text-4xl font-bold text-blue-900 text-center">Contact Information</h3>

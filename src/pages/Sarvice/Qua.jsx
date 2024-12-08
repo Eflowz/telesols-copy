@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import FootO from '../../Components/FootO';
 import Foot from '../../Components/Foot';
-import image1 from '../../assets/pics/assurance.jpg';
+import image1 from '../../assets/pics/side_img2.jpg';
 
 const Qua = () => {
   const location = useLocation();
@@ -33,7 +33,7 @@ const Qua = () => {
           <img
             src={image1}
             alt="Oil Country Tubular Goods"
-            className="hidden lg:block float-right mr-4 mb-2 w-[350px] h-auto mt-4"
+            className="hidden lg:block float-right mr-4 mb-2 w-[260px] h-auto mt-4"
           />
           <p className="text-left py-4">
           <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span>        understands that customers look for great quality in any product or service. We want our clients to have effective and efficient operations by providing them with quality assurance / quality control services.

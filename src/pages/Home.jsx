@@ -263,7 +263,7 @@ import image3 from "../assets/pics/3.jpg";
 import image4 from "../assets/pics/2121.jpg";
 import image5 from "../assets/pics/oil1.jpg";
 import image6 from "../assets/pics/oil2.jpg";
-import image7 from "../assets/pics/oil5.jpg";
+import image7 from "../assets/pics/persin.jpg";
 import First from "../Components/First";
 import Sech from "../Components/Sech";
 import ServicesIntro from "../Components/ServicesIntro";

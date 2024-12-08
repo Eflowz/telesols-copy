@@ -22,7 +22,7 @@ const Team = () => {
     },
     {
       name: 'Mr. Onyewuchi Jack Emmanuel',
-      position: 'COO',
+      position: 'CTO',
       description: 'Alice ensures our operations run smoothly and efficiently across all departments.',
       image: image12,
     },
@@ -57,7 +57,7 @@ const Team = () => {
               <img  
       src={member.image}
       alt={member.name}
-      className="mx-auto w-auto h-[250px] object-cover mb-4 transform transition duration-300 hover:scale-105 hover:brightness-110 rounded-full border-4 border-blue-600 "
+      className="mx-auto w-auto h-[250px] object-cover mb-4 transform transition duration-300 hover:scale-105 rounded-xl  border-4 border-blue-600 "
     />
         <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
         <p className="text-gray-600">{member.position}</p>
