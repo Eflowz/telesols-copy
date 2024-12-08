@@ -8,8 +8,8 @@ function Foot() {
       <div className="grid grid-cols-3 gap-4 md:flex md:space-x-4 mb-4 md:mb-0">
       <Link to="/" className="hover:underline">HOME</Link>
       <Link to="/about" className="hover:underline">ABOUT US</Link>
-      <Link to="/Services" className="hover:underline">SERVICES</Link>
-      <Link to="/Company" className="hover:underline">COMPANY</Link>
+      <Link to="/services" className="hover:underline">SERVICES</Link>
+      <Link to="/company" className="hover:underline">COMPANY</Link>
       <Link to="/contact" className="hover:underline">CONTACT US</Link>
     </div>
         <div className="text-center md:text-left">
