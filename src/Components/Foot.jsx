@@ -10,7 +10,7 @@ function Foot() {
       <Link to="/About" className="hover:underline">ABOUT US</Link>
       <Link to="/Services" className="hover:underline">SERVICES</Link>
       <Link to="/Company" className="hover:underline">COMPANY</Link>
-      <Link to="/Contact" className="hover:underline">CONTACT US</Link>
+      <Link to="/contact" className="hover:underline">CONTACT US</Link>
     </div>
         <div className="text-center md:text-left">
           <p className="text-[16px] font-extralight">

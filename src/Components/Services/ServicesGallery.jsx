@@ -74,7 +74,7 @@ const services = [
 const ServicesGallery = () => {
   return (
     <div className="container mx-auto px-4 md:px-113 py-8">
-        <h2><span className='text-black font-semibold'>IMG Energies Limited</span> offers the following services:</h2>
+        <h2><span className='text-blue-700 font-bold text-lg'>IMG ENERGIES LIMITED</span> offers the following services:</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
         {services.map((service, index) => (
           <Link 

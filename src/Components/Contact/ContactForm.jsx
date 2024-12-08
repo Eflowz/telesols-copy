@@ -78,9 +78,9 @@ const ContactForm = () => {
   className="w-full h-32 border border-black rounded-md p-4"
 />
         </div>
-        {/* div for the recaptcha and btn */}
-            <div className="flex flex-row gap-6"> 
-        <div className="mb-4">
+
+            <div className="flex flex-col md:flex-row  gap-6"> 
+        <div className=" md:mb-4">
           <ReCAPTCHA
             sitekey="your-recaptcha-site-key"
             onChange={(value) => setRecaptchaValue(value)}
@@ -89,14 +89,13 @@ const ContactForm = () => {
         <div className="text-center">
           <button
             type="submit"
-            className="bg-green-500 text-white px-6 py-6 rounded-md font-bold"
+            className="bg-green-500 text-white px-6 py-6 rounded-md font-bold w-full "
           >
             SUBMIT
           </button>
         </div>
-
             </div>
-
+            {/* End of recaptcha and button */}
       </form>
     </div>
     </div>

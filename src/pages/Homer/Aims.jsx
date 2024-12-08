@@ -31,7 +31,7 @@ const Aims = () => {
           />
           <h2 className='font-semibold text-lg'>OUR AIMS </h2>
       <p className="text-left py-4">
-At IMG ENERGIES Limited, we are driven by clear and actionable goals to ensure excellence and success in all we do.
+At <span className='text-blue-700 font-bold text-lg'>IMG ENERGIES LIMITED</span>, we are driven by clear and actionable goals to ensure excellence and success in all we do.
         </p>
         <ul className='list-decimal ml-6 '>
           <li className='mb-2'>

@@ -20,13 +20,15 @@ import Country from './pages/Homer/Country';
 import Strategy from './pages/Homer/Strategy';
 import Aims from './pages/Homer/Aims';
 import Team from './pages/Homer/Team';
+import SopBar from './Components/SopBar';
 
 
 
 function App() {
   return (
     <Router>
-      <TopBar/>
+      <SopBar/>
+      {/* <TopBar/> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

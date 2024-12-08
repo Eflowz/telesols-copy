@@ -9,7 +9,7 @@ const CompFile = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-full">
               <p>
-              At IMG Energies Limited, we specialize in delivering comprehensive contracting solutions to organizations within the oil and gas sector, serving government entities as well as private and public enterprises. Our expertise spans a range of critical services, including engineering construction, equipment leasing, procurement of specialized tools and chemicals, and workforce recruitment to support industry operations effectively.
+              <span className='text-blue-700 font-bold text-lg'>IMG ENERGIES LIMITED</span>, we specialize in delivering comprehensive contracting solutions to organizations within the oil and gas sector, serving government entities as well as private and public enterprises. Our expertise spans a range of critical services, including engineering construction, equipment leasing, procurement of specialized tools and chemicals, and workforce recruitment to support industry operations effectively.
               </p>
             </div>
           </div>

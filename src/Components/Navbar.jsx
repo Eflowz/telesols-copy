@@ -17,12 +17,14 @@ const Navbar = () => {
   return (
     <nav className="bg-[#ffb200]  p-3 relative "> 
       <div className="container mx-auto flex justify-center items-center ">
-        <div className="lg:hidden absolute top-[-160px] left-[590px]
+        <div className="lg:hidden absolute top-[-190px] left-[590px]
         mobile-xzl:left-[330px] 
-        mobile-lgo:left-[340px]
-        mobile-lg:left-[350px]
+        mobile-lgo:left-[330px]
+        mobile-lg:left-[370px]
         mobile-xal:left-[600px]
         z-40">
+          {/* mobile-sm:top-[-240px] */}
+          {/* mobile-sm:left-[270px] */}
           <button onClick={toggleMenu} className="text-black text-4xl focus:outline-none">
             {isOpen ? <FiX /> : <FiMenu />}
           </button>

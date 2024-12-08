@@ -31,7 +31,7 @@ const Strategy = () => {
           <h2 className='font-semibold text-lg'>OUR STRATEGY </h2>
 {/* Explore Our Strategic Vision */}
           <p className="text-left py-4">
-At <strong>IMG Energies Limited </strong>, we lead with innovation and expertise in engineering construction, the supply and maintenance of oil tools, chemicals, equipment, and advanced corrosion control solutions. By cultivating strategic alliances and technical partnerships with globally recognized technology leaders, we ensure the delivery of cutting-edge solutions tailored to our clients' needs.
+At <span className='text-blue-700 font-bold text-lg'>IMG ENERGIES LIMITED</span>,  we lead with innovation and expertise in engineering construction, the supply and maintenance of oil tools, chemicals, equipment, and advanced corrosion control solutions. By cultivating strategic alliances and technical partnerships with globally recognized technology leaders, we ensure the delivery of cutting-edge solutions tailored to our clients' needs.
   </p>
           <p className="text-left py-4">
           Staying ahead of market trends and technological advancements is at the core of our approach. This commitment enables us to offer transformative value to our customers, empowering their operations with the latest innovations that drive efficiency and success.
