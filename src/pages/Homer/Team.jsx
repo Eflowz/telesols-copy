@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import FootO from '../../Components/FootO';
 import Foot from '../../Components/Foot';
-import {image11, image2, image3, image4, image5, image6, image7, image8, image9, image10} from '../../assets';
+import {image11, image12, image13, image14} from '../../assets';
 
 const Team = () => {
   const location = useLocation();
@@ -10,27 +10,27 @@ const Team = () => {
   const teamMembers = [
     {
       name: 'Mr. Oladipo Augustus',
-      position: 'Director',
+      position: 'CEO/Director',
       description: 'John is the founder and CEO of the company with over 20 years of experience in the industry.',
       image: image11,
     },
     {
       name: 'Mr. Oveh Emmanuel',
-      position: 'CTO',
+      position: 'COO',
       description: 'Jane leads our tech team with a focus on innovation and cutting-edge technology.',
-      image: image2,
+      image: image13,
     },
     {
       name: 'Mr. Onyewuchi Jack Emmanuel',
       position: 'COO',
       description: 'Alice ensures our operations run smoothly and efficiently across all departments.',
-      image: image3,
+      image: image12,
     },
     {
       name: 'Mrs. Felix Merry Augustus',
-      position: 'COO',
+      position: 'Co-Director',
       description: 'Alice ensures our operations run smoothly and efficiently across all departments.',
-      image: image4,
+      image: image14,
     },
   ];
 
@@ -51,13 +51,13 @@ const Team = () => {
       <p className="px-6 md:px-8 mb-6">
         At IMG Energies Limited, our reputation and accomplishments are rooted in the expertise and dedication of our exceptional team.
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div className=" grid grid-cols-2 md:grid-cols-4 gap-8">
         {teamMembers.map((member, index) => (
-          <div key={index} className="team-member text-center p-6 shadow-lg rounded-lg">
-              <img
+          <div key={index} className="team-member text-center p-6 shadow-xl rounded-lg ">
+              <img  
       src={member.image}
       alt={member.name}
-      className="mx-auto w-auto h-[250px] object-cover mb-4 transform transition duration-300 hover:scale-105 hover:brightness-110"
+      className="mx-auto w-auto h-[250px] object-cover mb-4 transform transition duration-300 hover:scale-105 hover:brightness-110 rounded-full border-4 border-blue-600 "
     />
         <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
         <p className="text-gray-600">{member.position}</p>

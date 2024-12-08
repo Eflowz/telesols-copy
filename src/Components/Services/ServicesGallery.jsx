@@ -10,28 +10,28 @@ import { Link } from 'react-router-dom';
 
 const services = [
   {
-    title: "Oil Country Tubular Goods",
-    image: image1,
-    link: "/services/OilCountry",
-    icon: <TbMapPinPin className='text-7xl ' />, 
-  },
-  {
-    title: "Quality Assurance / Quality Control",
-    image: image2,
-    link: "/services/Quality-Assurance",
-    icon: <PiStrategyDuotone className='text-7xl' />, 
-  },
-  {
     title: "Chemical Supplies",
     image: image3,
     link: "/services/Chemical-Supplies",
     icon: <SlNote className='text-7xl' />, 
   },
   {
+    title: "Oil Country Tubular Goods",
+    image: image1,
+    link: "/services/OilCountry",
+    icon: <TbMapPinPin className='text-7xl ' />, 
+  },
+  {
     title: "Procurement",
     image: image4,
     link: "/services/Procurement",
     icon: <FaUsers className='text-7xl'/>, 
+  },
+  {
+    title: "Quality Assurance / Quality Control",
+    image: image2,
+    link: "/services/Quality-Assurance",
+    icon: <PiStrategyDuotone className='text-7xl' />, 
   },
   {
     title: "WellHead, Christmas Tree Equipment, Spares, and Accessories",
@@ -46,21 +46,15 @@ const services = [
     icon: <FaUsers className='text-7xl'/>, 
   },
   {
-    title: "Project Management",
-    image: image7,
-    link: "/services/Project-Management",
-    icon: <FaUsers className='text-7xl'/>, 
-  },
-  {
     title: "Electrical Materials",
     image: image8,
     link: "/services/Electrical-Materials",
     icon: <FaUsers className='text-7xl'/>, 
   },
   {
-    title: "Safety Materials",
-    image: image9,
-    link: "/services/Safety-Materials",
+    title: "Project Management",
+    image: image7,
+    link: "/services/Project-Management",
     icon: <FaUsers className='text-7xl'/>, 
   },
   {
@@ -69,12 +63,18 @@ const services = [
     link: "/services/Industrial-Equipment-and-Tools",
     icon: <FaUsers className='text-7xl'/>, 
   },
+  {
+    title: "Safety Materials",
+    image: image9,
+    link: "/services/Safety-Materials",
+    icon: <FaUsers className='text-7xl'/>, 
+  },
 ];
 
 const ServicesGallery = () => {
   return (
     <div className="container mx-auto px-4 md:px-113 py-8">
-        <h2><span className='text-blue-700 font-bold text-lg'>IMG ENERGIES LIMITED</span> offers the following services:</h2>
+        <h2><span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> offers the following services:</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
         {services.map((service, index) => (
           <Link 

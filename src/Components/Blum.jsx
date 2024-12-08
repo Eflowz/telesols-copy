@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import image1 from '../assets/pics/1.jpg';
+import image1 from '../assets/pics/2121.jpg';
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import AOS from 'aos';
 import 'aos/dist/aos.css';

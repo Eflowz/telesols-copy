@@ -36,7 +36,7 @@ const Chemical = () => {
             className="hidden lg:block float-right mr-8 mb-2 w-[400px] h-auto mt-4"
           />
           <p className="text-left py-4">
-            The entire team at         <span className="text-blue-800 font-semibold">Teresols Nigeria Limited</span>          places great importance on the safety of our people, our customers, and the environment. We know, understand, and follow industry standards to ensure such safety. At the same time, we strive hard to meet the expectations of our clients at every opportunity that presents itself.
+            The entire team at         <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span>         places great importance on the safety of our people, our customers, and the environment. We know, understand, and follow industry standards to ensure such safety. At the same time, we strive hard to meet the expectations of our clients at every opportunity that presents itself.
           </p>
           <p className="text-left py-4">
           Our company constantly reviews HSE procedures. We aim for perfection and will do our best to get you to the level of quality you desire and deserve. It is our constant goal to get the job done right.

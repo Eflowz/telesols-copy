@@ -11,17 +11,17 @@ const Text = () => {
           className="hidden lg:block float-right mr-4 mb-2 w-[350px] h-auto "
         />
       <p className='text-left py-4'>
-      Established on November 12, 2024, and headquartered in Benin City, Edo State, Nigeria, <span className='text-blue-700 font-bold text-lg'>IMG ENERGIES LIMITED</span> is a proudly indigenous company committed to delivering exceptional services to clients in the oil and gas industry. Operating in compliance with all applicable laws, we are dedicated to maintaining the highest standards of quality and professionalism.
+      Established on November 12, 2024, and headquartered in Benin City, Edo State, Nigeria, <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> is a proudly indigenous company committed to delivering exceptional services to clients in the oil and gas industry. Operating in compliance with all applicable laws, we are dedicated to maintaining the highest standards of quality and professionalism.
       </p>
       </div>
      
 
         <p className='text-left py-4'>
-        Founded by Mr. Oladipo Augustus, a seasoned business leader with extensive knowledge of Nigeria’s dynamic business landscape, <span className='text-blue-700 font-bold text-lg'>IMG ENERGIES LIMITED</span> benefits from his visionary leadership and vast expertise. Under his guidance, the company has achieved significant strides in innovation, customer focus, and operational excellence.
+        Founded by Mr. Oladipo Augustus, a seasoned business leader with extensive knowledge of Nigeria’s dynamic business landscape, <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> benefits from his visionary leadership and vast expertise. Under his guidance, the company has achieved significant strides in innovation, customer focus, and operational excellence.
         </p>
 
       <p className='text-left py-4'>
-      To ensure the delivery of superior products and services, <span className='text-blue-700 font-bold text-lg'>IMG ENERGIES LIMITED</span> has forged strategic partnerships with reputable Original Equipment Manufacturers (OEMs) worldwide, guaranteeing direct procurement from trusted sources. This approach enables us to offer competitive pricing without compromising on quality.
+      To ensure the delivery of superior products and services, <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> has forged strategic partnerships with reputable Original Equipment Manufacturers (OEMs) worldwide, guaranteeing direct procurement from trusted sources. This approach enables us to offer competitive pricing without compromising on quality.
       </p>
 
       <p className='text-left py-4'>
@@ -42,7 +42,7 @@ const Text = () => {
       </p>
 
       <p className='text-left py-4'>
-      For more information about <span className='text-blue-700 font-bold text-lg'>IMG ENERGIES Limited</span> and how we can serve your business needs, contact us today. Let us partner with you to achieve unparalleled success in your industry.
+      For more information about <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> and how we can serve your business needs, contact us today. Let us partner with you to achieve unparalleled success in your industry.
       </p>
     </div>
   );

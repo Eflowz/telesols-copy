@@ -48,13 +48,13 @@ const Psupply = () => {
             The strength of our management capabilities begins with experienced people.
           </p>
           <p className="text-left py-2 mb-3">
-          Known for high-competency and accuracy, <span className="text-blue-700 font-bold">Teresols</span> helps to reduce manpower constraints—without compromising safety and quality. The high degree of service we provide is the result of an astute understanding of the manpower process acquired from years of hands-on experience. Our diverse experience, coupled with an extensive project library, allows <span className="text-blue-700 font-bold">Teresols</span> team to respond quickly thereby providing significant savings in cost and time.
+          Known for high-competency and accuracy, <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> helps to reduce manpower constraints—without compromising safety and quality. The high degree of service we provide is the result of an astute understanding of the manpower process acquired from years of hands-on experience. Our diverse experience, coupled with an extensive project library, allows <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> team to respond quickly thereby providing significant savings in cost and time.
           </p>
           <p className=" mb-4">
-          <span className="text-blue-700 font-bold">Teresols</span>—in the provision of capable Manpower Services—consists of recruitment & selection, temporary placement or deployment with a functional online portal, and access to a database of candidates from the oil and gas, offshore, shipping, energy, and petrochemical industry where they can register themselves and update their personal details from time to time.
+          <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span>—in the provision of capable Manpower Services—consists of recruitment & selection, temporary placement or deployment with a functional online portal, and access to a database of candidates from the oil and gas, offshore, shipping, energy, and petrochemical industry where they can register themselves and update their personal details from time to time.
           </p>
           <p className="mb-4">
-            <span className="text-blue-700 font-bold">Teresols</span> reduces the burden of our clients by providing streamlined Manpower Management services inclusive of pay rolling, travel and logistics, relocation and accommodation, and assistance with visas and immigration in the case of international personnel movement.
+          <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> reduces the burden of our clients by providing streamlined Manpower Management services inclusive of pay rolling, travel and logistics, relocation and accommodation, and assistance with visas and immigration in the case of international personnel movement.
           </p>
           
           <p className=" mb-4">

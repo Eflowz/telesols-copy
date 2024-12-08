@@ -1,16 +1,13 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';  
-import image1 from "../assets/pics/oil2.jpg";
-import image2 from "../assets/pics/oil5.jpg";
-import image3 from "../assets/pics/oil3.jpg";
-import image4 from "../assets/pics/oil4.jpg";
+import {image104, image2, image8, image10} from '../assets/index';
 
 const services = [
   {
     title: "Oil Country",
     subtitle: "Tubular Goods",
-    image: image1,
+    image: image104,
     link: "/services/OilCountry",
   },
   {
@@ -22,13 +19,13 @@ const services = [
   {
     title: "Chemical",
     subtitle: "Supplies",
-    image: image3,
+    image: image8,
     link: "/services/Chemical-Supplies",
   },
   {
     title: "View More",
     subtitle: "Services",
-    image: image4, 
+    image: image10, 
     link: "/services",
   },
 ];

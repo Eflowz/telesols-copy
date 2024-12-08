@@ -5,7 +5,6 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Company from './pages/Company'
 import Contact from './pages/Contact';
-import TopBar from './Components/TopBar';
 import OilCountry from '../src/pages/Sarvice/OilCountry';
 import Qua from './pages/Sarvice/Qua';
 import Chemical from './pages/Sarvice/Chemical';
@@ -28,7 +27,6 @@ function App() {
   return (
     <Router>
       <SopBar/>
-      {/* <TopBar/> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

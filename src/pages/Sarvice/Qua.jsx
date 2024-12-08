@@ -36,7 +36,7 @@ const Qua = () => {
             className="hidden lg:block float-right mr-4 mb-2 w-[350px] h-auto mt-4"
           />
           <p className="text-left py-4">
-            <span className="text-blue-800 font-semibold">Teresols Nigeria Limited</span>        understands that customers look for great quality in any product or service. We want our clients to have effective and efficient operations by providing them with quality assurance / quality control services.
+          <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span>        understands that customers look for great quality in any product or service. We want our clients to have effective and efficient operations by providing them with quality assurance / quality control services.
           </p>
           <p className="text-left py-4">
           Our highly skilled team is committed to ensuring the highest level of products and services to earn the trust and satisfaction of our clients. We help firms develop their performances through the use of high-quality materials and equipment. We also help clients develop and use technologies that will eliminate the production of defective products

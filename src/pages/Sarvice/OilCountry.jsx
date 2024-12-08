@@ -36,7 +36,7 @@ const OilCountry = () => {
             className="hidden lg:block float-right mr-4 mb-2 w-[350px] h-auto mt-4"
           />
           <p className="text-left py-4">
-            <span className="text-blue-800 font-semibold">Teresols Nigeria Limited</span> can help firms procure oil country tubular goods for their operations. Our procurement team is more than capable of finding cost-effective yet quality materials in the region. These include the three types of seamless tubes:
+          <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> can help firms procure oil country tubular goods for their operations. Our procurement team is more than capable of finding cost-effective yet quality materials in the region. These include the three types of seamless tubes:
           </p>
         </div>
         <div className="flex flex-col lg:flex-row justify-between items-start lg:space-x-8">

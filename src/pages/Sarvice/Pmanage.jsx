@@ -32,7 +32,7 @@ const Pmanage = () => {
             className="hidden lg:block float-right mr-8 w-[400px] h-auto "
           />
           <p className="text-left py-4">
-            One of        <span className="text-blue-800 font-semibold">Teresols Nigeria Limited'</span>s project management teams ensure that its clients and business partners are provided with a succinctly clear program, budget, and timeline to drive the project through effective initiation, execution and completion.
+            One of        <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span>'s project management teams ensure that its clients and business partners are provided with a succinctly clear program, budget, and timeline to drive the project through effective initiation, execution and completion.
           </p>
           <p className="text-left py-4">
           The company’s ability to integrate and apply diverse unique skills, methods, processes, and experience guarantees successful achievement of projects objectives within the stipulated time frame. Transparent evaluations of projects are provided as a pre-determined milestone to keep our clients’ informed regarding project progress and to ensure best value use of resources in order to successfully accomplish the desired result.
