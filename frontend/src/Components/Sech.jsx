@@ -15,9 +15,9 @@ const  Sech = () => {
     <div className="flex flex-col md:flex-row items-center justify-between py-2 mr-10 " >
     <div className="hidden md:block md:w-1/2 relative" data-aos="fade-right" >
     <img 
-        src={image5} 
+        src={image6} 
         alt="Description" 
-        className="w-[220px] h-[240px]  absolute top-[-100px] left-40 z-10 rounded-lg" 
+        className="w-[240px] h-[240px]  absolute top-[-100px] left-40 z-10 rounded-lg" 
     />
     <img 
         src={image9} 

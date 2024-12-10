@@ -45,7 +45,7 @@ function ServiceCard({ title, image, link, icon }) {
     <Link to={link}> 
       <div className="relative" data-aos="fade-up">
         <img src={image} alt={title} className="mb-4 w-full h-full object-cover opacity-80"  />
-        <div className="absolute inset-0 hover:bg-blue-800 hover:bg-opacity-60 flex flex-col justify-center items-center text-white">
+        <div className="absolute inset-0  bg-black bg-opacity-50 hover:bg-opacity-60 flex flex-col justify-center items-center text-white">
           {icon} 
           <h3 className="text-md md:text-2xl font-bold mb-2 ">{title}</h3>
           <hr className="w-1/2 border-white mb-2" />

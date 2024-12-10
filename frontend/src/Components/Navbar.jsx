@@ -17,14 +17,16 @@ const Navbar = () => {
   return (
     <nav className="bg-[#ffb200]  p-3 relative "> 
       <div className="container mx-auto flex justify-center items-center ">
-        <div className="lg:hidden absolute top-[-190px] left-[590px]
+        <div className="lg:hidden absolute top-[-210px] left-[590px]
         mobile-xzl:left-[330px] 
-        mobile-lgo:left-[330px]
-        mobile-lg:left-[370px]
+        mobile-lgi:left-[370px]
+        mobile-lge:left-[340px]
+        mobile-lgo:left-[350px]
+        mobile-lgp:left-[360px]
+        mobile-lgq:left-[370px]
+        mobile-lgr:left-[390px]
         mobile-xal:left-[600px]
         z-40">
-          {/* mobile-sm:top-[-240px] */}
-          {/* mobile-sm:left-[270px] */}
           <button onClick={toggleMenu} className="text-black text-4xl focus:outline-none">
             {isOpen ? <FiX /> : <FiMenu />}
           </button>
@@ -58,7 +60,7 @@ const Navbar = () => {
             ></div>
             <div className="absolute top-0 left-0 w-full h-full text-center flex flex-col z-50">
               {/* Close Button */}
-              <div className="absolute top-[-150px] right-[30px] mobile-md:right-[157px]">
+              <div className="absolute top-[-150px] right-[30px] mobile-mdi:right-[167px] mobile-lgi:right-[190px]">
                 <button onClick={toggleMenu} className="bg-white p-2 rounded-full">
                   <FiX className="text-black text-3xl" />
                 </button>

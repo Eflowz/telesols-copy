@@ -3,28 +3,25 @@ import { FiPhone } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram } from 'react-icons/fa6';
 import { FaSquareXTwitter } from "react-icons/fa6";
-import logo from '../assets/pics/IMG-Energies-2.png'; 
+import logo from '../assets/pics/IMG-Energies-3.png'; 
 
 
 const SopBar = () => {
   return (
     <div className="bg-white py-[40px] border-b ">
-        {/* sm:sticky sm:top-0 z-30 */}
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="flex items-center mb-2 md:mb-0">
+        <div className="flex items-center md:mb-0">
+        <a href="/">
           <img
             src={logo} 
             alt="Logo"
-            className="absolute w-[400px]
-            mobile-xzl:left-[-20px] 
-            mobile-lgo:left-[-15px]
-            mobile-lg: left-1
-            mobile-xal:left-[170px]
-            "
+            className="w-[330px] md:w-[400px]
+            mobile-lgi:mr-12
+            mobile-mdi:mr-12
+            "            
             />
+        </a>
         </div>
-            {/* max-w-screen-mobile-lg */}
-            {/* mobile-sm:left-[2px] */}
         <div className="flex flex-col md:flex-row md:items-center md:text-right text-center">
         <div className="flex items-center mb-2 md:mb-0 justify-center md:justify-end mt-8 md:mt-0 ">
             <div>
