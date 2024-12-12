@@ -99,7 +99,7 @@ function Footer() {
         </p>
         <div className="mt-5">
             <div className="flex flex-col md:flex-row items-center mb-4">
-                <img src={image202} alt="Location" className="w-12 h-12 mb-2 md:mb-0 md:mr-4" />
+                <img src={image202} alt="Location" className="w-[] h-12 mb-2 md:mb-0 md:mr-4" />
                 <p className="text-center md:text-left">
                     7, Osayomore street, oko central road, Benin City, Edo State, Nigeria
                 </p>

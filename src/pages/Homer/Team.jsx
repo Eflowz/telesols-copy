@@ -11,25 +11,21 @@ const Team = () => {
     {
       name: 'Mr. Oladipo Augustus',
       position: 'CEO/Director',
-      description: 'John is the founder and CEO of the company with over 20 years of experience in the industry.',
       image: image11,
     },
     {
       name: 'Mr. Oveh Emmanuel',
       position: 'COO',
-      description: 'Jane leads our tech team with a focus on innovation and cutting-edge technology.',
       image: image13,
     },
     {
       name: 'Mr. Onyewuchi Jack Emmanuel',
       position: 'CTO',
-      description: 'Alice ensures our operations run smoothly and efficiently across all departments.',
       image: image12,
     },
     {
       name: 'Mrs. Felix Merry Augustus',
       position: 'Co-Director',
-      description: 'Alice ensures our operations run smoothly and efficiently across all departments.',
       image: image14,
     },
   ];
