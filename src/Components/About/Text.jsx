@@ -4,18 +4,16 @@ import image1 from '../../assets/pics/getber.jpg';
 const Text = () => {
   return (
     <div className='mt-4 p-4 md:px-113'>
-         <div className="relative">
+        <div className="relative">
         <img 
           src={image1} 
           alt="oops" 
-          className="hidden lg:block float-right mr-4 mb-2 w-[350px] h-auto "
+          className="hidden lg:block float-right mr-2 mb-2 w-[350px] h-auto mt-8"
         />
       <p className='text-left py-4'>
       Established on November 12, 2024, and headquartered in Benin City, Edo State, Nigeria, <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> is a proudly indigenous company committed to delivering exceptional services to clients in the oil and gas industry. Operating in compliance with all applicable laws, we are dedicated to maintaining the highest standards of quality and professionalism.
       </p>
       </div>
-     
-
         <p className='text-left py-4'>
         Founded by Mr. Oladipo Augustus, a seasoned business leader with extensive knowledge of Nigeria’s dynamic business landscape, <span className='text-blue-700 font-bold text-lg'>IMG Energies Limited</span> benefits from his visionary leadership and vast expertise. Under his guidance, the company has achieved significant strides in innovation, customer focus, and operational excellence.
         </p>

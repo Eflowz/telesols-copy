@@ -23,7 +23,7 @@ const Qua = () => {
     <div className="absolute top-[150px] md:top-[190px] inset-0 flex items-center justify-center">
         <div className="bg-white bg-opacity-80 px-4 py-2 w-full">
         <h1 className="text-2xl md:text-4xl font-semibold text-black text-center">
-            QUALITY ASSURANCE QUALITY CONTROL
+            QUALITY ASSURANCE / QUALITY CONTROL
         </h1>
         </div>
       </div>
@@ -36,7 +36,7 @@ const Qua = () => {
             <Link to="/services" className="text-blue-600 hover:underline">Services</Link>
             <span className="mx-2">{'>'}</span>
             {location.pathname === '/services/Quality-Assurance' && (
-              <span className="font-semibold text-gray-900">Quality Assurance Quality Control</span>
+              <span className="font-semibold text-gray-900">Quality Assurance /Quality Control</span>
             )}
           </nav>
         </div>
