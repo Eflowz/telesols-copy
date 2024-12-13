@@ -12,9 +12,9 @@ import image101 from './pics/images(11).jpg';
 import image102 from './pics/images(12).jpg';
 import image103 from './pics/images(13).jpg';
 import image104 from './pics/images(14).jpg';
-import image11 from './pics/Director20.jpg';
-import image12 from './pics/Coo11.jpg';
-import image13 from './pics/ctoo3.png';
+import image11 from './pics/rb.png';
+import image12 from './pics/CTO.jpg';
+import image13 from './pics/COO.png';
 import image14 from './pics/Merry2.jpg';
 
 

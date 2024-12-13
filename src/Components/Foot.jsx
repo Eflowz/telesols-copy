@@ -18,7 +18,7 @@ function Foot() {
         </div>
         <div className="text-center md:text-left">
           <p className="text-[16px] font-extralight">
-            © Copyright 2025 Img Energies Limited | Import <br /> Web Design: NEONTECH 
+            © Copyright 2025 IMG Energies Limited | Import <br /> Web Design: NEONTECH 
           </p>
         </div>
       </div>
