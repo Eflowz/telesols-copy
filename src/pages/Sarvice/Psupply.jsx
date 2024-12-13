@@ -1,19 +1,24 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import image1 from '../../assets/pics/nh_banner.jpg';
+import image1 from '../../assets/pics/oil-rigs.jpg';
 import image2 from '../../assets/pics/manpower.jpg'
 import FootO from '../../Components/FootO';
 import Foot from '../../Components/Foot';
 
 const Psupply = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return (
       <>
     <div 
-    className="relative bg-cover bg-center h-64 md:h-80"
+    className="relative bg-cover bg-center h-48 md:h-60"
     style={{ backgroundImage: `url(${image1})` }}
     >
     <div className="absolute inset-0 bg-white opacity-40"></div> 
-    <div className="absolute top-[210px] md:top-[265px] inset-0 flex items-center justify-center">
+    <div className="absolute top-[150px] md:top-[190px] inset-0 flex items-center justify-center">
         <div className="bg-white bg-opacity-50 px-4 py-4 w-full">
         <h1 className="text-xl md:text-3xl font-semibold text-black text-center uppercase text-wrap">
         Provision of Technical Manpower and Personnel Supply

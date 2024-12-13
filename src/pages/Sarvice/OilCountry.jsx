@@ -1,14 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import FootO from '../../Components/FootO';
 import Foot from '../../Components/Foot';
-import image1 from '../../assets/pics/tubular.jpg';
+import image2 from '../../assets/pics/tubular.jpg';
+import image1 from '../../assets/pics/oil-rigs.jpg';
 
 const OilCountry = () => {
   const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   
   return (
     <>
+    <div 
+    className="relative bg-cover bg-center h-48 md:h-60"
+    style={{ backgroundImage: `url(${image1})` }}
+    >
+    <div className="absolute inset-0 bg-white opacity-40"></div> 
+    <div className="absolute top-[150px] md:top-[190px] inset-0 flex items-center justify-center">
+        <div className="bg-white bg-opacity-80 px-4 py-2 w-full">
+        <h1 className="text-2xl md:text-4xl font-semibold text-black text-center">
+            OIL COUNTRY TUBULAR GOODS
+        </h1>
+        </div>
+      </div>
+    </div>
       <div className="flex flex-col items-center mt-8 mb-4">
         <div className="mb-4 text-gray-700">
           <nav className="text-sm md:text-base">
@@ -31,7 +49,7 @@ const OilCountry = () => {
       <div className="mt-4 p-4 md:px-113">
         <div className="relative">
           <img
-            src={image1}
+            src={image2}
             alt="Oil Country Tubular Goods"
             className="hidden lg:block float-right mr-4 mb-2 w-[350px] h-auto mt-4"
           />

@@ -1,14 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import SupplierList from '../Industrial/SupplierList'
 import { Link, useLocation } from 'react-router-dom';
 import FootO from '../../Components/FootO';
 import Foot from '../../Components/Foot';
 import image1 from '../../assets/pics/industrial.jpg';
-import image2 from '../../assets/pics/nh_banner.jpg';
+import image2 from '../../assets/pics/oil-rigs.jpg';
 
 const Industrial = () => {
   const location = useLocation();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div>
