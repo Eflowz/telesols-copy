@@ -18,8 +18,6 @@ import image13 from './pics/COO.png';
 import image14 from './pics/Merry2.jpg';
 
 
-
-
 export {
   image1,
   image2,
