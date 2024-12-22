@@ -1,6 +1,4 @@
 import React, { useEffect} from 'react';
-// import image1 from "../assets/pics/side_img1.jpg";
-// import image2 from "../assets/pics/side_img2.jpg";
 import {image1, image2, image3, image4, image5, image6, image7, image8, image9, image10} from '../assets';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -25,7 +23,7 @@ const  Sech = () => {
         className="w-[250px] h-[240px] absolute top-[-70px] right-[80px] z-20 rounded-lg" 
     />
     </div>
-    <div className="md:w-1/2 text-center md:text-left mt-4 md:mt-10 md:ml-[-90px]" data-aos="fade-left">
+    <div className="md:w-1/2 text-center md:text-left mt-4 md:mt-10 md:ml-[-90px]" data-aos="fade-right">
     <p className="text-2xl text-black text-left ml-3">Welcome to</p>
     <h2 className="text-5xl font-bold text-blue-700 text-left ml-3">IMG Energies Limited</h2>
     <p className="mt-4 text-black text-left ml-3 text-[17px]">
