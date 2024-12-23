@@ -1,5 +1,5 @@
 import React, { useEffect} from 'react';
-import {image1, image2, image3, image4, image5, image6, image7, image8, image9, image10} from '../assets';
+import {image105, image6, image9 } from '../assets';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -12,6 +12,7 @@ const  Sech = () => {
     return (
     <div className="flex flex-col md:flex-row items-center justify-between py-2 mr-10 " >
     <div className="hidden md:block md:w-1/2 relative" data-aos="fade-right" >
+    
     <img 
         src={image6} 
         alt="Description" 
@@ -22,6 +23,13 @@ const  Sech = () => {
         alt="Description" 
         className="w-[250px] h-[240px] absolute top-[-70px] right-[80px] z-20 rounded-lg" 
     />
+    {/* plan B */}
+    {/* 
+         <img src={image105}         alt="Description" 
+       className="w-[500px] h-auto ml-[80px] pt-2"
+      />
+      No pressure
+    */}
     </div>
     <div className="md:w-1/2 text-center md:text-left mt-4 md:mt-10 md:ml-[-90px]" data-aos="fade-right">
     <p className="text-2xl text-black text-left ml-3">Welcome to</p>

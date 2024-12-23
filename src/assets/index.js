@@ -16,6 +16,7 @@ import image11 from './pics/rb.png';
 import image12 from './pics/CTO.jpg';
 import image13 from './pics/COO.png';
 import image14 from './pics/Merry2.jpg';
+import image105 from './pics/Together.png'
 
 
 export {
@@ -33,6 +34,7 @@ export {
   image102,
   image103,
   image104,
+  image105,
   image11,
   image12,
   image13,

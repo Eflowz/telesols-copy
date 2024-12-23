@@ -20,12 +20,14 @@ import Strategy from './pages/Homer/Strategy';
 import Aims from './pages/Homer/Aims';
 import Team from './pages/Homer/Team';
 import SopBar from './Components/SopBar';
+import ScrollToTop from './Components/ScrollToTop'
 
 
 
 function App() {
   return (
     <Router>
+       <ScrollToTop />
       <SopBar/>
       <Navbar />
       <Routes>
