@@ -9,7 +9,7 @@ import ServicesIntro from "../Components/ServicesIntro";
 import Blum from '../Components/Blum';
 import Footer from "../Components/Footer";
 import Foot from "../Components/Foot";
-import Balablu from '../assets/Video/Balagreen.mp4';
+import Balablu from '../assets/Video/Balared.mp4';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -54,7 +54,6 @@ const Home = () => {
           </Link>
         </div>
       </div>
-
       <First />
       <Sech />
       <ServicesIntro />
